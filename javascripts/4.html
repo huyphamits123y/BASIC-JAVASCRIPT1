@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phạm Gia Huy</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    *{
+padding:0;
+margin:0
+}
+div.menu{
+width:100%;
+height:120px;
+}
+div.menu1{
+
+width:50%;
+height:100%;
+}
+div.menu1 img{
+width:60%;
+height:100%;
+margin-left: 150px;
+}
+div.menu2{
+margin-top:15px;
+width:50%;
+height:100%;
+}
+ul.sun > li{
+margin-top:15px;
+margin-left:7px;
+border-right:1px solid black;
+text-align:center;
+}
+ul.sun a{
+padding-right:5px;
+
+}
+div.menu a{
+ font-size:20px;
+
+}
+
+div.menu3 a{
+text-decoration:none;
+
+}
+div.menu3 li{
+
+
+list-style-type:none
+}
+div.menu4 li{
+    list-style-type:none;
+}
+div.menu3 ul{
+display:flex;
+}
+
+div.hat{
+display:flex;
+}
+
+div.hat{
+margin-left:5px;
+margin-top:15px;
+}
+ul.sub {
+
+background-color: mintcream;
+}
+div.menu4{
+
+margin-top:5px;
+}
+div.menu4 a{
+padding:20px;
+display:block;
+text-decoration:none;
+
+}
+div.menu4  > ul{
+list-style-type:none;
+display:flex;
+}
+div.menu4 > ul > li > a:hover{
+  border-top-right-radius: 20px;
+  border-top-left-radius:20px;
+  background-color:rgb(175,238,238);
+  color:white;
+
+
+  transition:  0.3s;
+}
+div.menu{
+display:flex;
+}
+div.menu2{
+margin-left:150px;
+}
+div.menu3 a:hover{
+color:red;
+ transition:  0.3s;
+}
+ul.sub li:hover{
+    background-color: rgb(240,255,255);
+    transition:0.2s;
+    border-bottom: 1px ridge black;
+}
+.sub{
+    display:none;
+}
+.lap:hover .sub {
+    display:block;
+    position:absolute;
+    z-index:1;
+    
+}
+div.moon{
+width:100%;
+}
+
+div.phone{
+
+left:350px;
+top:50px;
+position:relative;
+}
+
+div.container img{
+
+width:100%;
+height:600px;
+position:absolute;
+
+}
+div.container{
+width:100%;
+
+z-index:-1;
+}
+ul.plane li{
+list-style-type:none;
+}
+ul.plane{
+display:flex;
+}
+ul.plane a{
+padding:20px;
+background-color:rgb(175,238,238);
+text-decoration:none;
+
+}
+ul.plane i{
+margin-right:10px;
+}
+ul.plane a:hover {
+background-color:rgb(135,206,250);
+color:white;
+transition:0.7s;
+}
+div.sky{
+margin-top:600px;
+width:100%;
+}
+div.sky1{
+margin-left:300px;
+}
+div.sky img{
+width:75%;
+height:150px;
+
+}
+div.plane1 i{
+margin-left:60px;
+font-size:30px;
+color: rgb(255,250,205);
+}
+div.plane1 p{
+margin-top:30px;
+}
+div.plane1 a{
+text-decoration:none;
+}
+div.plane2 i{
+margin-left:80px;
+font-size:30px;
+color: rgb(255,250,205);
+}
+div.plane2 p{
+margin-top:30px;
+}
+div.plane2 a{
+text-decoration:none;
+}
+div.plane{
+display:flex;
+}
+div.plane div{
+margin-left:50px;
+}
+div.plane3 i{
+margin-left:23px;
+font-size:30px;
+color: rgb(255,250,205);
+}
+div.plane3 p{
+margin-top:30px;
+}
+div.plane3 a{
+text-decoration:none;
+}
+div.plane4 i{
+margin-left:57px;
+font-size:30px;
+color: rgb(255,250,205);
+}
+div.plane4 p{
+margin-top:30px;
+}
+div.plane4 a{
+text-decoration:none;
+}
+
+div.sky1{
+position:  absolute;
+width:80%;
+}
+div.plane{
+position: relative;
+top:30px;
+left:300px;
+}
+/* ul.ball li{
+
+    list-style-type:none
+}
+ul.ball a{
+    display:block;
+
+    padding:20px;
+    text-decoration:none;
+}
+ul.ball{
+    margin-left:0px;
+    width:700px;
+    height:70px;
+    background-color:blanchedalmond;
+    margin-top:50px;
+    display:flex;
+} */
+div.game{
+    margin-top:30px;
+}
+ul.game3 img{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    border:7px ridge rgb(135,206,250);
+ 
+}
+ul.game3 li{
+    width:140px;
+}
+div.game1 h1{
+    text-align:center;
+}
+ul.game3{
+    display:flex;
+}
+ul.game3 li{
+    list-style-type:none;
+    margin-left:60px;
+   
+
+}
+ul.game3 a{
+    text-decoration: none;
+}
+ul.game3{
+    margin-top:0px;
+    margin-left:310px;
+}
+ul.game3 h3{
+    text-align:center;
+
+}
+
+
+.bookends-dots {
+  position: relative;
+  border-bottom: 1px solid hsla(0, 0%, 50%, 0.75);
+  width: 60%;
+}
+.bookends-dots:before,
+.bookends-dots:after {
+  position: absolute;
+  bottom: -5px;
+  width: 10px;
+  height: 10px;
+  display: block;
+  border-width: 0 1px 1px 0;
+  border-color: hsla(0, 0%, 50%, 0.75);
+  border-style: solid;
+  box-sizing: border-box;
+  border-radius: 100%;
+}
+.bookends-dots:before {
+  transform: translateZ(0) rotate(-45deg);
+  left: -10px;
+}
+.bookends-dots:after {
+  transform: translateZ(0) rotate(135deg);
+  right: -10px;
+}
+.bookends-dots {
+    margin-top:100px;
+    margin-left:300px;
+}
+div.men h1{
+    margin-top:20px;
+    text-align:center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+ul.core li{
+    width:210px;
+    height:350px;
+    list-style-type:none;
+    margin-left:20px;
+}
+ul.core img{
+    width:100%;
+    height:100%;
+
+}
+ul.core{
+    margin-top:20px;
+    display:flex;
+    margin-left:280px;
+}
+div.but button{
+
+  
+    background-color:white;
+    border-radius: 20em;
+
+    border:1px solid gold;
+}
+div.but{
+    margin-top:20px;
+    margin-left:670px;
+}
+div.but a{
+    text-decoration:none;
+    padding:20px 40px;
+    display:block;
+}
+div.but a:hover{
+    background-color:black;
+    color:white;
+    border-radius: 20em;
+    transition:0.5s;
+}
+.hr1{
+    margin-top:30px;
+    width:320px;
+    height:2px;
+}
+.msi{
+    margin-top:10px;
+    display:flex;
+    margin-left:290px;
+}
+.msi p{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size:40px;
+}
+ul.clock li{
+    width:420px;
+    height:250px;
+    margin-left:20px;
+}
+ul.clock img{
+    width:100%;
+    height:100%;
+}
+ul.clock{
+    margin-top:20px;
+    display:flex;
+    margin-left:75px;
+}
+
+</style>
+<body>
+<div  class="menu">
+    <div class="menu1">
+        <img src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t1.15752-9/256907461_624344608745751_4673157504702088577_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=YxOsoMbpQ3kAX-kOG_v&_nc_oc=AQn2XZqRn54P9_sCbHxzqzcN2X-vtdRAquMRy2Cvq9T-sxCY48rkFnfAskUk2dYlhtJvBW73bJwHQVleQu4Z8Eby&_nc_ht=scontent.fsgn2-7.fna&oh=03_AdQJUxbLGMJaO0VQzUlVzi4IfM-nDjsu0ddzbajrHDMx7Q&oe=63A39FE3"  alt='anh1'/>
+
+    </div>
+   <div class="menu2">
+        <div class="menu3">
+            <ul class="sun">
+                <li><a href="#">Đăng Nhập</a></li>
+                 <li><a href="#">Đăng Ký</a></li>
+                  <div class="hat">
+                      <li><input type="text" placeholder="tim kiếm" /></li>
+                      <li><input type="submit"  value="Search"/></li>
+                  </div>
+            </ul>
+
+        </div>
+       <div class="menu4">
+           <ul class="good">
+               <li class="lap">
+                   <a href="#">Lên Kế Hoạch</a>
+                   <ul class="sub">
+                       <li><a href="#">Vé máy bay & Sản phẩm liên kết</a></li>
+                       <li><a href="#">Trải nghiệm bay cùng VNA</a></li>
+                       <li><a href="#">Lịch bay</a></li>
+                   </ul>
+
+               </li>
+               <li class="lap">
+                <a href="#">Lên kế hoạch</a>
+                <ul class="sub">
+                    <li><a href="#">Giá vé đặt biệt</a></li>
+                    <li><a href="#">Điều kiện giá vé</a></li>
+                    <li><a href="#">Dịch vụ bổ trợ</a></li>
+                </ul>
+            </li>
+               <li class="lap">
+                <a href="#">Thông tin hành trình</a>
+                <ul class="sub">
+                    <li><a href="#">Làm Thủ Tục Trực Tuyến</a></li>
+                    <li><a href="#">Quầy Tự Làm Thủ Tục</a></li>
+                    <li><a href="#">Làm Thủ Tục Qua Điện Thoại</a></li>
+                    <li><a href="#">Làm Thủ Tục Tại Sân Bay</a></li>
+                </ul>
+
+            </li>
+           </ul>
+
+       </div>
+   </div>
+   
+</div>
+<div class="moon">
+    <div class="container">
+        <img src="https://www.etrip4u.com/Content/userfiles/logo-vietnam-airlines-lich-su-hinh-thanh-va-y-nghia-2.jpg" alt="anh2" />
+
+    </div>
+    <div class="phone">
+        <ul class="plane">
+            <li><a href="#"><i class="fa-solid fa-plane"></i>MUA VÉ</a></li>
+            <li><a href="#"><i class="fa-solid fa-book"></i>QUẢN LÍ ĐẶT CHỖ</a></li>
+
+            <li><a href="#"><i class="fa-solid fa-clock"></i>TRA CỨU CHUYẾN BAY</a></li>
+             <li><a href="#"><i class="fa-solid fa-ticket"></i>LÀM THỦ TỤC</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="sky">
+
+    <div class="sky1">
+        <img src="https://thuthuatnhanh.com/wp-content/uploads/2020/01/anh-bau-troi-xanh-lam-background-powerpoint.jpg" alt='anh3' />
+    </div>
+    <div class="plane">
+        <div class="plane1">
+            <a href="#"><i class="fa-solid fa-briefcase"></i></a>
+            <p><a href="#">HÀNH LÝ TRẢ TRƯỚC</a></p>
+           
+        </div>
+        <div class="plane2">
+            <a href="#"><i class="fa-solid fa-jet-fighter-up"></i></a>
+            <p><a href="#">NÂNG HẠN VÀ CHỌN CHỖ</a></p>
+           
+        </div>
+        <div class="plane3">
+            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+            <p><a href="#">MUA SẮM</a></p>
+           
+        </div>
+        <div class="plane4">
+            <a href="#"><i class="fa-solid fa-hotel"></i></a>
+            <p><a href="#">KHÁCH SẠN & TOUR</a></p>
+           
+        </div>
+    </div>
+
+
+</div>
+<hr class="bookends-dots">
+<div class="game">
+ 
+    
+    <div class="game2">
+        <ul class="game3">
+            <li>
+                <a href="#"><img src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.15752-9/313635128_1553516401773587_9150852228127923541_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=s--kNbdc348AX9klxmv&_nc_ht=scontent.fsgn2-4.fna&oh=03_AdS_YqXIkkyyLTNqBwlXsOdqaDkNGNJN8Al1hcpkoIYTKg&oe=63A3D1B8" alt=""/></a>
+                <h3><a href="#">VNDHolidays</a></h3>
+            </li>
+            <li>
+                <a href="#"><img src="https://scontent.fsgn2-2.fna.fbcdn.net/v/t1.15752-9/316678729_1159318214958798_2592206963198571791_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=y4mBBEr7bZkAX82BtS6&tn=VEQdOHtji3jAV6gT&_nc_ht=scontent.fsgn2-2.fna&oh=03_AdSP0-E3FABD1D8AQ75-5f0POF64s-ITOn-rPIDb3ZMdaQ&oe=63A3B248" alt=""/></a>
+                <h3><a href="#">Chương trình ưu đãi</a></h3>
+            </li>
+            <li>
+                <a href="#"><img src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t1.15752-9/315528042_1491572054667256_913008372693614883_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=RjJF2sv7YvYAX8LqRhO&_nc_ht=scontent.fsgn2-7.fna&oh=03_AdT590RNzPcgf10TOwEArGuLbEYTjfLxK90PriOGNJ4PhQ&oe=63A3B242" alt=""/></a>
+                <h3><a href="#">Kết Nối Zalo với Vietnam Airlines</a></h3>
+            </li>
+            <li>
+                <a href="#"><img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/312282469_438038088532606_4503975584555374956_n.jpg?stp=dst-jpg_p206x206&_nc_cat=100&ccb=1-7&_nc_sid=aee45a&_nc_ohc=Ji6KCNt1vH4AX807iEO&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSyFl2rDddQfVNml3ymmVVPWHGbiRmlcH97wFHdwIbubQ&oe=63A3B07A" alt=""/></a>
+                <h3><a href="#">Hướng dẫn Hoàn/ đổi vé</a></h3>
+            </li>
+        </ul>
+    </div>
+
+
+</div>
+<div class="men">
+  <h1>
+    Khám Phá Các Chuyến Bay Phổ Biến Nhất Của Chúng Tôi
+
+  </h1>
+</div>
+<div>
+    <ul class="core">
+        <li><a href="#"><img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.15752-9/315520873_674869890953759_5980979052303754223_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=te7vplvr7r8AX8MGqhm&_nc_ht=scontent.fsgn2-6.fna&oh=03_AdSXLTzJ6YFg7Wa3CAjdezrOQ2y-O3hygBOpdUp2r9-hSg&oe=63A45842" alt="" /></a></li>
+        <li><a href="#"><img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.15752-9/313004913_451876097097659_5081477783484079155_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=egNr3AmrjTgAX8nAbxW&_nc_ht=scontent.fsgn2-3.fna&oh=03_AdQYe7PYDFjrzbnaH_QZdjVS2yLDibOYPKy3fGN90aSJkg&oe=63A428E8" alt="" /></a></li>
+        <li><a href="#"><img src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t1.15752-9/313227427_3295122067413159_3098679806732511393_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=ruM2RGiXVXAAX_zYpTD&tn=VEQdOHtji3jAV6gT&_nc_ht=scontent.fsgn2-7.fna&oh=03_AdStdfI_20lSYOLGxrOIPo5GuF8rhT66wyfFWDsPLpKPRA&oe=63A44D37" alt="" /></a></li>
+        <li><a href="#"><img src="https://scontent.fsgn2-1.fna.fbcdn.net/v/t1.15752-9/314436659_667218738338379_8213363511965067566_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Efk0bV7-1coAX_uHNlN&_nc_ht=scontent.fsgn2-1.fna&oh=03_AdTr3U9YzH7gBUTKlVXYUSNvg2qoMxsXskb2KQLdDfchOQ&oe=63A42A90" alt="" /></a></li>
+    </ul>
+</div>
+
+<div class="but">
+    <button name="button" type="button"><a href="#">Xem Thêm</a></button>
+</div>
+<div class="msi">
+    <hr class="hr1">
+    <p>Dịch Vụ Bổ Trợ</p>
+    <hr class="hr1">
+
+</div>
+<div class="event">
+
+    <ul class="clock">
+        <li><a href="#"><img src="https://scontent.fsgn2-1.fna.fbcdn.net/v/t1.15752-9/314417919_5140599099373460_8850400577166621129_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=zqaYRAoCoS0AX9UtGHY&tn=VEQdOHtji3jAV6gT&_nc_ht=scontent.fsgn2-1.fna&oh=03_AdTwrnnnOrqqpnYzhMrE7P06nBh83-x421YyBrQBG9sopQ&oe=63A45DE9" alt="" /></a></li>
+        <li><a href="#"><img src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t1.15752-9/315523318_517678676949078_730521310522901334_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=bsEcxAuBi-AAX94BBwy&tn=VEQdOHtji3jAV6gT&_nc_ht=scontent.fsgn2-7.fna&oh=03_AdQYQzuhWbq1gWznGwkjrNTlh4fBRpLKL8BxK9wroEVRcw&oe=63A44FA2" alt="" /></a></li>
+        <li><a href="#"><img src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t1.15752-9/314866490_865428521127430_6805535337033686591_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=kZ-XNs4jL-oAX8ssIUs&_nc_ht=scontent.fsgn2-7.fna&oh=03_AdSk8x21MEHsgkONPU0URS-Lz3Ae0_x2eaX7x75bsVeUCg&oe=63A47EB5" alt="" /></a></li>
+    </ul>
+</div>
+<div class="msi">
+    <hr class="hr1">
+    <p>Thông tin nổi bật</p>
+    <hr class="hr1">
+
+</div>
+</body>
+</html>
